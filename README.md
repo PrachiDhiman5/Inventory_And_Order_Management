@@ -25,6 +25,7 @@ D:\Projects\Personal\Order_Mangement/
     │   ├── context/
     │   │   └── AuthContext.jsx   # Global authentication state provider (login, register, logout, localStorage)
     │   ├── pages/
+    │   │   ├── Landing.jsx         # Public landing page with system features overview and routing CTA options
     │   │   ├── Login.jsx         # User login form
     │   │   ├── Register.jsx      # User signup form (select Buyer or Seller, plus company info)
     │   │   ├── AdminDashboard.jsx  # Admin controls: view user directories, audit calculations, manage catalog, update order status

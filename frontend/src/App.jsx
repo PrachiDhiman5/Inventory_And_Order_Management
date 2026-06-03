@@ -7,6 +7,7 @@ import Register from './pages/Register';
 import BuyerDashboard from './pages/BuyerDashboard';
 import SellerDashboard from './pages/SellerDashboard';
 import AdminDashboard from './pages/AdminDashboard';
+import Landing from './pages/Landing';
 
 // Route Guard to protect route and verify roles
 const ProtectedRoute = ({ children, allowedRoles }) => {
@@ -74,8 +75,8 @@ function App() {
                 }
               />
 
-              {/* Home Catch-all */}
-              <Route path="/" element={<RootRedirect />} />
+              {/* Landing Page & Home Catch-all */}
+              <Route path="/" element={<Landing />} />
               <Route path="*" element={<Navigate to="/" replace />} />
             </Routes>
           </div>
