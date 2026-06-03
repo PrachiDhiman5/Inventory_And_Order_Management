@@ -105,7 +105,7 @@ const SellerDashboard = () => {
     }
   };
 
-  const handleUpdateStatus = async (orderId, status) => {
+  const handleUpdateOrderStatus = async (orderId, status) => {
     try {
       await api.put(`/orders/${orderId}/status`, { status });
       fetchData();
