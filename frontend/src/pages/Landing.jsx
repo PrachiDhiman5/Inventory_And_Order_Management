@@ -24,11 +24,11 @@ const Landing = () => {
             </Link>
           ) : (
             <>
-              <Link to="/login" className="btn btn-primary" style={{ padding: '12px 30px', fontSize: '16px' }}>
-                Login to Portal
+              <Link to="/register" className="btn btn-primary" style={{ padding: '12px 30px', fontSize: '16px' }}>
+                Get Started
               </Link>
-              <Link to="/register" className="btn btn-secondary" style={{ padding: '12px 30px', fontSize: '16px' }}>
-                Register Account
+              <Link to="/login" className="btn btn-secondary" style={{ padding: '12px 30px', fontSize: '16px' }}>
+                Login
               </Link>
             </>
           )}
